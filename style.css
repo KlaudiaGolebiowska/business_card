@@ -25,6 +25,8 @@ body {
   padding: 32px;
 }
 .person {
+    display: flex;
+    align-items: flex-start;
 }
 
 .person__info{
@@ -34,6 +36,7 @@ body {
 .person__photo {
   border-radius: 50%;
   width: 102px;
+  margin-right: 32px;
 }
 .person__name {
   font-size: 36px;
@@ -47,13 +50,26 @@ body {
   margin: 0;
   font-style: italic;
 }
+
+
+.person__position--special{
+    font-weight: normal;
+    font-size: 10px;
+  color: #545454;
+  margin: 0;
+  font-style: italic;
+
+}
 .person__description {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   margin: 0;
 }
 
-
+.person__description--with-margin{
+    margin-bottom: 22px;
+    font-size: 14px;
+}
 .special {
     color: #ED6D05;
     font-weight: normal;
