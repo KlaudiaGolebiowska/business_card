@@ -35,8 +35,8 @@ body {
 
 .person__photo {
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   margin-right: 32px;
   border: solid 2px #14213d;
 }
